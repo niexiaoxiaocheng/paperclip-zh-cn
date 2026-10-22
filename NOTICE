@@ -1,0 +1,16 @@
+Paperclip Simplified Chinese Extension
+
+This is an independent community localization project, not an official
+Paperclip AI product or a native Paperclip plugin-manager package.
+
+The English source UI catalog is derived from the public Paperclip distribution:
+https://github.com/paperclipai/paperclip
+Version: 2026.1012.0
+Commit: bba6a45f0d364cfd962ac59b3bdf2426a8222adb
+
+The localization implementation and Chinese terminology overrides were prepared
+with AI assistance. Base translations include machine-assisted drafts.
+
+Paperclip remains licensed by its original authors. Its license notice is
+reproduced in THIRD_PARTY_NOTICES.md. No Paperclip server, database, credentials,
+personal environment backups, or user records are distributed in this project.

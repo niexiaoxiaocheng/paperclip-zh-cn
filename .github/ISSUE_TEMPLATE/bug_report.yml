@@ -1,0 +1,31 @@
+name: 汉化或安装问题
+description: 报告译文遗漏、错误或安装问题
+body:
+  - type: input
+    id: versions
+    attributes:
+      label: Paperclip / Node.js / 扩展版本
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: 运行环境
+      options:
+        - WSL
+        - Linux
+        - macOS
+        - Windows 原生
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 重现步骤与实际结果
+      description: 请提供页面位置或安装错误摘要，不要粘贴密钥和实例配置。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望译法或行为

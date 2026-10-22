@@ -1,0 +1,23 @@
+{
+  "name": "paperclip-zh-cn",
+  "version": "0.1.0",
+  "description": "Community Simplified Chinese UI extension for the pinned Paperclip npm distribution",
+  "type": "module",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/niexiaoxiaocheng/paperclip-zh-cn.git" },
+  "homepage": "https://github.com/niexiaoxiaocheng/paperclip-zh-cn#readme",
+  "bugs": { "url": "https://github.com/niexiaoxiaocheng/paperclip-zh-cn/issues" },
+  "engines": { "node": ">=24.11.0" },
+  "bin": { "paperclip-zh-cn": "bin/paperclip-zh-cn.mjs" },
+  "files": ["bin/", "src/", "scripts/", "test/", "locales/*.json", "locales/*.tsv", "compatibility.json", "README.md", "README.en.md", "CONTRIBUTING.md", "CHANGELOG.md", "LICENSE", "NOTICE", "THIRD_PARTY_NOTICES.md", "docs/"],
+  "scripts": {
+    "apply": "node bin/paperclip-zh-cn.mjs install",
+    "audit": "node bin/paperclip-zh-cn.mjs audit",
+    "restore": "node bin/paperclip-zh-cn.mjs restore",
+    "verify": "node bin/paperclip-zh-cn.mjs verify",
+    "check": "node scripts/check-catalog.mjs",
+    "merge": "node scripts/merge-catalog.mjs",
+    "test": "node --test"
+  },
+  "dependencies": { "acorn": "8.18.0" }
+}

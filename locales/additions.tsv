@@ -1,0 +1,1564 @@
+Name your organization	为组织命名
+Continue	继续
+Get started	开始使用
+Create one here	在此创建
+You have no agents.	你还没有数字员工。
+No recent agent runs.	暂无最近的员工运行记录。
+No tasks match the current filters or search.	没有符合当前筛选或搜索条件的任务。
+No active or recent agent runs.	暂无正在运行或最近运行的员工。
+Last 14 days	最近 14 天
+Agents	数字员工
+AGENTS	数字员工
+General	常规
+just now	刚刚
+ running	 正在运行
+ paused	 已暂停
+ errors	 错误
+ open	 未完成
+Live runs	实时运行
+Live agent runs	实时员工运行
+Active / recent	活跃／最近
+Delegated	已委派
+Automation	自动化
+Now	现在
+Run time	运行时间
+Tokens used	令牌用量
+Project Timeline	项目时间线
+Work Timeline	工作时间线
+Range	范围
+Today	今天
+7 days	7 天
+30 days	30 天
+Timeline start date	时间线开始日期
+Timeline end date	时间线结束日期
+Reset zoom	重置缩放
+New Organization	新建组织
+Import organization	导入组织
+Export organization	导出组织
+Delete Organization	删除组织
+Delete this organization and all its data? This cannot be undone.	删除此组织及其全部数据？此操作无法撤销。
+Deleting…	正在删除…
+History	历史记录
+Read-only	只读
+Resume	恢复
+Clear error	清除错误
+Pause anyway	仍然暂停
+Duplicate Agent	复制数字员工
+Copy Agent ID	复制员工 ID
+Reset Sessions	重置会话
+Terminate	终止
+Missing	缺失
+Schedule off	计划已关闭
+Proposal pending	有待审提议
+Working…	正在工作…
+Bundle status	指令包状态
+Proposal	提议
+Review proposal	审阅提议
+Monthly budget (optional)	月预算（选填）
+Configuring…	正在配置…
+Trust preset	信任预设
+Containment active	隔离限制已启用
+Containment not configured	尚未配置隔离限制
+Boundary type	边界类型
+Root issue	根任务
+Issue	任务
+Select boundary	选择边界
+Clear boundary	清除边界
+View policy	查看策略
+Preset	预设
+Raw output	原始输出
+Allowed agents	允许的员工
+Allowed tools	允许的工具
+Allowed secrets	允许的密钥
+No files	暂无文件
+Files will appear here when they are available.	文件可用后将显示在这里。
+Scroll to bottom	滚动到底部
+Source task	源任务
+Process cleanup	进程清理
+Needs approval	需要审批
+Denied	已拒绝
+Timed out	已超时
+Requested	请求值
+Effective	实际生效
+Streaming	流式传输
+Waiting for result...	等待结果…
+Command failed	命令执行失败
+Errored	发生错误
+Could not load this view	无法加载此视图
+GitHub identity	GitHub 身份
+Installed apps	已安装应用
+Open permissions	打开权限设置
+Effective access	实际权限
+Tool	工具
+Capability	能力
+Risk	风险
+Access profiles	访问档案
+Check access	检查权限
+Organization default	组织默认设置
+Active policies	生效的策略
+Unavailable tools	不可用的工具
+Connect a channel	连接频道
+Loading channels…	正在加载频道…
+No channels connected	尚未连接频道
+Open Connectors	打开连接器
+Provider identity	服务商身份
+Workspace recovery	工作区恢复
+Pipeline	流水线
+Copy value	复制值
+No fields match.	没有匹配的字段。
+Provider path	服务商路径
+Output path	输出路径
+Operations	操作
+Run status	运行状态
+Sensitive debug data	敏感调试数据
+Direction	方向
+Visible	显示
+Hidden	隐藏
+Surface	界面
+Container	容器
+State	状态
+Policy	策略
+No cap	不设上限
+Anyone (default)	任何人（默认）
+Suggested tasks	建议任务
+Ask user questions	向用户提问
+Confirmations	确认请求
+Checkbox confirmations	勾选确认
+Item verdicts	逐项判定
+Connection requests	连接请求
+Local trusted	本地受信任
+Ready	就绪
+None	无
+Local trusted mode is optimized for a local operator. Browser requests run as local board context and no sign-in is required.	本地受信任模式适用于单人本地使用。浏览器以本地负责人身份访问，无需登录。
+ in the organization — the board or any agent, including the one that asked — can respond. Narrow a kind only when you need to.	都可以回应，包括负责人和任何数字员工（含发起请求的员工）。仅在需要时限制某类交互。
+ is the audience new cards get when the requester does not ask for one; 	是请求者未指定时新卡片采用的处理人范围；
+ narrows every request of that kind and can never widen one. Tool-approval confirmations always stay 	会限制此类所有请求的处理人范围，且只能收紧。工具审批确认始终为
+Hide the username segment in home-directory paths and similar operator-visible log output. Standalone username mentions outside of paths are not yet masked in the live transcript view. This is off by default.	隐藏主目录路径及类似可见日志中的用户名。实时记录中，路径外单独出现的用户名暂不会被隐藏。此功能默认关闭。
+Configure how long automatic database backups are retained. Backups run roughly every hour and are compressed with gzip. Within the daily window all backups are kept; beyond that, one backup per week and one per month are preserved.	设置自动数据库备份的保留时间。备份约每小时执行一次，并使用 gzip 压缩。每日保留期内保存全部备份；更早的备份按每周一份、每月一份保留。
+ days	 天
+1 week	1 周
+2 weeks	2 周
+4 weeks	4 周
+1 month	1 个月
+3 months	3 个月
+6 months	6 个月
+Control whether thumbs up and thumbs down votes can send the voted AI output to Paperclip Labs. Votes are always saved locally.	控制点赞或点踩时，是否将被评价的 AI 输出发送给 Paperclip Labs。评价始终会保存在本地。
+No default is saved yet. The next thumbs up or thumbs down choice will ask once and then save the answer here.	尚未保存默认选项。下次点赞或点踩时会询问一次，并在此保存你的选择。
+To retest the first-use prompt in local dev, remove the	如需在本地开发中重新测试首次提示，请移除
+ key from the	键，所在位置为
+ JSON row for this instance, or set it back to	此实例的 JSON 记录，或将其设回
+. Unset and 	。未设置和
+ both mean no default has been chosen yet.	均表示尚未选择默认值。
+Switch to dark mode	切换为深色模式
+Switch to light mode	切换为浅色模式
+Task controls	任务控制
+Task project and worktrees	任务项目与工作树
+Create task	创建任务
+Create sub-task	创建子任务
+Create task (⌘+Enter)	创建任务（⌘+Enter）
+editable markdown	Markdown 编辑区
+Switch to dark mode	切换为深色模式
+Switch to light mode	切换为浅色模式
+AGENT	数字员工
+Confirmation	确认请求
+Checkbox confirmation	勾选确认
+New cards are open — the board or any agent can respond, including the one that asked.	新卡片对所有人开放，负责人和任何员工（包括提问者）均可回应。
+A request keeps whatever audience it asks for.	保留请求指定的处理人范围。
+Task controls	任务操作
+Task project and worktrees	任务项目与工作树
+created	创建了
+updated	更新了
+deleted	删除了
+read	已读
+marked unread	标记为未读
+checked out	接管了
+released	释放了
+commented on	评论了
+paused	暂停了
+resumed	恢复了
+terminated	终止了
+cleared error on	清除了错误，关联
+created API key for	创建了 API 密钥，关联
+updated budget for	更新了预算，关联
+reset session for	重置了会话，关联
+invoked heartbeat for	触发了心跳运行，关联
+cancelled heartbeat for	取消了心跳运行，关联
+requested approval	发起了审批
+approved	批准了
+rejected	拒绝了
+created organization	创建了组织
+updated organization	更新了组织
+archived	归档了
+reactivated	重新启用了
+connected	连接了
+reconnected	重新连接了
+removed	移除了
+reported cost for	报告了费用，关联
+recorded cost for	记录了费用，关联
+asked for a decision on	请求决策，关联
+accepted the request on	接受了请求，关联
+rejected the request on	拒绝了请求，关联
+answered the request on	回答了请求，关联
+withdrew the request on	撤回了请求，关联
+cancelled the request on	取消了请求，关联
+skipped the request on	跳过了请求，关联
+expired the request on	请求已过期，关联
+submitted verdicts on	提交了判定，关联
+attached file to	添加了文件，关联
+removed attachment from	移除了附件，关联
+created document for	创建了文档，关联
+updated document on	更新了文档，关联
+locked document on	锁定了文档，关联
+unlocked document on	解锁了文档，关联
+deleted document from	删除了文档，关联
+added a comment	添加了评论
+deleted a comment	删除了评论
+added an attachment	添加了附件
+removed an attachment	移除了附件
+created a document	创建了文档
+updated a document	更新了文档
+locked a document	锁定了文档
+unlocked a document	解锁了文档
+deleted a document	删除了文档
+created the issue	创建了任务
+updated the issue	更新了任务
+deleted the issue	删除了任务
+Create	创建
+Submit	提交
+Connect	连接
+Select...	请选择…
+Type or select...	输入或选择…
+Job title shown in the org chart.	显示在组织架构中的职位名称。
+Copy the code	复制验证码
+Use a different account	使用其他账户
+Copy sign-in command	复制登录命令
+Start sign-in again	重新开始登录
+Check again	再次检查
+How to get a full path	如何获取完整路径
+Choose	选择
+Agent instructions file	员工指令文件
+Persistent	持久会话
+One-shot	单次运行
+Deny	拒绝
+Fail	失败
+Enable Chrome	启用 Chrome
+Skip permissions	跳过权限询问
+Max turns per run	每次运行的最大轮数
+Provider	服务商
+Session spend ceiling (USD)	会话费用上限（美元）
+Maximum iterations	最大迭代次数
+Maximum output tokens	最大输出令牌数
+Invocation timeout (seconds)	调用超时（秒）
+Permission mode	权限模式
+Runner lifecycle	运行器生命周期
+Turn by turn	逐轮运行
+Warm session	保持会话
+Warm idle timeout (ms)	会话空闲超时（毫秒）
+Stored secret; enter a new value to replace it	密钥已保存；输入新值即可替换
+API base URL	API 基础地址
+Paperclip API URL	Paperclip API 地址
+Session key strategy	会话标识策略
+Issue scoped	按任务划分
+Agent scoped	按员工划分
+Run scoped	按运行划分
+Timeout seconds	超时秒数
+Event reconnect ms	事件重连间隔（毫秒）
+Extra headers	额外请求头
+Payload template JSON	请求体模板 JSON
+Gateway URL	网关地址
+Gateway auth token	网关认证令牌
+Agent ID	员工 ID
+Session strategy	会话策略
+Fixed	固定
+Per issue	每个任务
+Per run	每次运行
+Session key	会话标识
+Password (alternative auth)	密码（备用认证）
+Gateway shared password	网关共享密码
+Scopes (comma-separated)	权限范围（用逗号分隔）
+Paperclip API URL override	覆盖 Paperclip API 地址
+Timeout (seconds)	超时（秒）
+Headers JSON	请求头 JSON
+Wait timeout (ms)	等待超时（毫秒）
+Device auth	设备认证
+Command	命令
+Args (comma-separated)	参数（用逗号分隔）
+Shell Process	Shell 进程
+HTTP Webhook	HTTP 回调
+Unknown manager (stale ID)	未知上级（ID 已失效）
+No manager	无上级
+Current: 	当前：
+Up one folder	返回上级文件夹
+Browse secrets	浏览密钥
+Current	当前
+Recently used	最近使用
+All secrets	全部密钥
+Select secret…	选择密钥…
+No matching secrets	没有匹配的密钥
+Create new secret…	创建新密钥…
+Store value as secret	将值存为密钥
+Secret name	密钥名称
+Secret value	密钥值
+Hide value	隐藏值
+Show value	显示值
+Text value	文本值
+Store the value inline as plain text.	将值以内联明文形式保存。
+Organization secret	组织密钥
+User secret	个人密钥
+This value looks sensitive — store it as a secret	此值可能包含敏感信息，建议存为密钥
+Store as secret	存为密钥
+Secret version	密钥版本
+(recommended)	（推荐）
+Select user secret...	选择个人密钥…
+User secret key	个人密钥键名
+Requirement	要求
+Required	必填
+Optional	选填
+Store as secret…	存为密钥…
+No environment variables	暂无环境变量
+Recently used:	最近使用：
+Revert	还原
+Reason given by the agent	员工提供的理由
+Approve & create secret	批准并创建密钥
+Approve binding	批准绑定
+Proposed by	提议者
+Provider vault	服务商密钥库
+Deployment default	部署默认设置
+Approving…	正在批准…
+Approve & create	批准并创建
+Approve secret & bind	批准密钥并绑定
+Target agent	目标员工
+Delivered as	交付形式
+Also approve the proposed secret	同时批准所提议的密钥
+Reject proposal	拒绝提议
+Reason	理由
+Why is this being rejected?	拒绝的理由是什么？
+Rejecting…	正在拒绝…
+Reject	拒绝
+Approve	批准
+You don’t have permission to approve this.	你没有批准此操作的权限。
+Secret access	密钥访问
+Access alias	访问别名
+Remove API access	移除 API 访问权限
+Add API access	添加 API 访问权限
+Plan	计划
+Ask	询问
+e.g. VP of Engineering	例如：技术负责人
+Prompt Template	提示词模板
+Environment	运行环境
+Default environment	默认运行环境
+Environment override	覆盖运行环境
+Default: 	默认：
+Environment test failed	运行环境测试失败
+Working directory (deprecated)	工作目录（已弃用）
+Failed to load adapter models.	适配器模型加载失败。
+Bootstrap prompt (legacy)	初始化提示词（旧版）
+Optional initial setup prompt for the first run	首次运行的初始化提示词（选填）
+Extra args (comma-separated)	额外参数（用逗号分隔）
+ Run Policy	 运行策略
+Timeout (sec)	超时（秒）
+Interrupt grace period (sec)	中断宽限期（秒）
+Wake on demand	按需唤醒
+Cooldown (sec)	冷却时间（秒）
+Max concurrent runs	最大并发运行数
+Continue after max-turn stop	达到轮数上限后继续
+Continuation attempts	继续尝试次数
+Continuation delay (sec)	继续运行延迟（秒）
+ Debugging	 调试
+Login timed out	登录超时
+Login cancelled	登录已取消
+Login failed	登录失败
+Sign in	登录
+Copy URL	复制地址
+Open the authentication page	打开认证页面
+Use saved login	使用已保存的登录
+Sign in to replace	重新登录以替换
+Open the authorization page	打开授权页面
+Browser code	浏览器验证码
+Completing the login…	正在完成登录…
+Coming soon	即将推出
+Select model (required)	选择模型（必填）
+Select model	选择模型
+Search models... (type to create)	搜索模型…（输入可创建）
+Search models...	搜索模型…
+Detecting...	正在检测…
+Re-detect from config	从配置重新检测
+Detect from config	从配置检测
+Refreshing...	正在刷新…
+Refresh models	刷新模型
+Use manual model	手动指定模型
+No models found.	未找到模型。
+New agent progress	新建员工进度
+1. Name	1. 名称
+2. Adapter	2. 适配器
+Meet your next agent	创建你的下一位数字员工
+Choose an adapter	选择适配器
+Start with a name. Make them your own.	先起个名字，创建属于你的数字员工。
+e.g. Darnold	例如：小智
+Invite an external agent	邀请外部智能体
+Loading adapters…	正在加载适配器…
+Runner	运行器
+Choose adapter	选择适配器
+Configure agent	配置员工
+Connect your model provider	连接模型服务商
+Enter API key here	在此输入 API 密钥
+Connection name	连接名称
+Sign-in environment	登录环境
+Preparing sign-in…	正在准备登录…
+Couldn’t copy to clipboard	无法复制到剪贴板
+Loading connection…	正在加载连接…
+Loading connection settings…	正在加载连接设置…
+Connect your own tool	连接自己的工具
+Connect an app	连接应用
+Couldn’t connect	无法连接
+Couldn’t finish setup	无法完成设置
+Back to apps	返回应用
+Ready to use	可以使用
+Setup needs attention	设置需要处理
+Review connection setup	检查连接设置
+Open authorization in a new tab	在新标签页中打开授权
+Preparing secure sign-in	正在准备安全登录
+Install Paperclip on GitHub	在 GitHub 上安装 Paperclip
+Manage repositories on GitHub	在 GitHub 上管理仓库
+Preparing…	正在准备…
+Open sign-in in a new tab	在新标签页中打开登录
+Checking…	正在检查…
+Check link	检查链接
+Search apps…	搜索应用…
+Unavailable on this instance.	此实例暂不支持。
+Unavailable	不可用
+Connect →	连接 →
+Connect with a link	通过链接连接
+Not available	不可用
+App key	应用密钥
+Advanced authentication	高级认证
+Header value	请求头值
+Add another header	添加其他请求头
+Let Paperclip check	让 Paperclip 检查
+No sign-in needed	无需登录
+Key or token	密钥或令牌
+Browser sign-in	浏览器登录
+What should Paperclip be able to do?	允许 Paperclip 执行哪些操作？
+Choose an access level to continue.	选择访问级别以继续。
+How do you want to connect?	你想如何连接？
+Choose a connection method to continue.	选择连接方式以继续。
+Review requirements	查看要求
+Where do I find this?	在哪里可以找到？
+Validate and continue	验证并继续
+Validate and connect	验证并连接
+Continue to GitHub	继续前往 GitHub
+Continue to sign in	继续登录
+Optional for public clients	公共客户端可不填写
+My GitHub account	我的 GitHub 账户
+A dedicated account for an agent	员工专用账户
+Shared organization GitHub account (advanced)	组织共享 GitHub 账户（高级）
+No identity required	无需身份信息
+Only agents I choose	仅限我选择的员工
+Change	更改
+Available to	可用范围
+View connection	查看连接
+Create project	创建项目
+Close new project	关闭新建项目
+Source repositories	源码仓库
+Creating…	正在创建…
+New sub-goal	新建子目标
+New goal	新建目标
+Goal title	目标标题
+Add description...	添加描述…
+Parent goal	上级目标
+No parent	无上级
+Create sub-goal	创建子目标
+Create goal	创建目标
+Close agent setup	关闭员工设置
+Setup prompt	设置提示词
+Copying…	正在复制…
+Try copying again	再次尝试复制
+Copy prompt	复制提示词
+Ready to paste into your agent.	已准备好，可粘贴到你的智能体中。
+Agent onboarding prompt	员工接入提示词
+Copy onboarding prompt	复制接入提示词
+Invite your agent	邀请你的智能体
+Optional message for the agent	给智能体的消息（选填）
+Generating…	正在生成…
+Generate onboarding prompt	生成接入提示词
+Move down	下移
+Move up	上移
+Collapse selected group	收起所选分组
+Expand selected group	展开所选分组
+Open selected item	打开所选项目
+Archive item	归档项目
+Mark as unread	标为未读
+Task detail	任务详情
+Go to inbox	前往收件箱
+Focus comment composer	聚焦评论输入框
+Global	全局
+Toggle sidebar	切换侧边栏
+Toggle panel	切换面板
+Show keyboard shortcuts	显示键盘快捷键
+Keyboard shortcuts	键盘快捷键
+Dismiss notification	关闭通知
+Dismiss announcement	关闭公告
+Paperclip announcements	Paperclip 公告
+Application extensions	应用扩展
+Worktree	工作树
+Click to copy worktree name	点击复制工作树名称
+Restart Required	需要重启
+Auto-Restart On	自动重启已开启
+Restart now	立即重启
+Share	分享
+Open in Browser	在浏览器中打开
+This page hit an error	此页面出现错误
+Something went wrong while rendering this page. You can go back and try again, or reload.	页面渲染出错。请返回重试，或刷新页面。
+Go back	返回
+One conversation per agent. Pick up where you left off.	每位员工一个对话，随时继续之前的工作。
+Search agents by name or role	按名称或角色搜索员工
+Search by name or role…	按名称或角色搜索…
+Opening conversation…	正在打开对话…
+Couldn’t load agents. Try again.	无法加载员工，请重试。
+Try another name or role.	请尝试其他名称或角色。
+Clear search	清除搜索
+Create an agent from the Agents page to start chatting.	在员工页面创建数字员工后，即可开始对话。
+Open chat	打开对话
+New chat	新建对话
+Terminated	已终止
+Awaiting approval	等待审批
+Add chat	添加对话
+Find an agent	查找员工
+Search results	搜索结果
+Teammates	团队成员
+Loading agents	正在加载员工
+Loading chat history…	正在加载对话记录…
+Agent conversations	员工对话
+Start a conversation	开始对话
+No agents found	未找到员工
+No chats yet	暂无对话
+Choose an agent to start a conversation.	选择一位数字员工以开始对话。
+Choose an agent	选择员工
+Browse all agents	浏览全部员工
+Resize sidebar	调整侧边栏大小
+Server	服务器
+Last restarted	上次重启
+Running commit	当前运行提交
+Checkout state	代码检出状态
+View profile	查看个人资料
+Invite	邀请
+Documentation	文档
+Close sidebar	关闭侧边栏
+Couldn't load companies	无法加载组织
+No companies	暂无组织
+Invites	邀请
+Heartbeats	心跳调度
+Connections	连接
+All apps	全部应用
+Invite people to your organization.	邀请成员加入组织。
+Open Paperclip docs in a new tab.	在新标签页中打开 Paperclip 文档。
+End this browser session.	结束此浏览器会话。
+Session start	会话开始
+Human message	用户消息
+Final response	最终回复
+Progress update (streaming)	进度更新（流式）
+Tool call	工具调用
+Diff	差异
+Working	工作中
+Running	运行中
+Interrupted	已中断
+Refused	已拒绝
+Truncated	已截断
+View session	查看会话
+Open browser	打开浏览器
+Document	文档
+Open file in new tab	在新标签页中打开文件
+Download file	下载文件
+Email received	收到邮件
+Email sent	邮件已发送
+External	外部
+Open attachment	打开附件
+Email details	邮件详情
+Delivered	已送达
+Delivery failed	送达失败
+Delivery uncertain	送达状态不确定
+Queued	排队中
+Sent	已发送
+Download	下载
+Previous	上一步
+Agent needs attention	员工需要处理
+Requesting retry…	正在请求重试…
+Retry agent	重试员工运行
+Hide details	隐藏详情
+View details	查看详情
+Automatic attempts	自动尝试
+Stopped	已停止
+Technical reason	技术原因
+Details	详情
+Trying again...	正在重试…
+Sending…	正在发送…
+View saved plan	查看已保存的计划
+Changed	已更改
+Query	查询
+Research sources	研究来源
+Show fewer results	收起结果
+Plan steps	计划步骤
+Delegated agents	受委派的员工
+Changed files	更改的文件
+Preview unavailable.	无法预览。
+Thought	思考
+Token usage	令牌用量
+Activity history	历史动态
+Plan step	计划步骤
+Subagent	子智能体
+Scroll to latest	滚动到最新
+Attach image	添加图片
+Recommended	推荐
+No answer	未回答
+Previous question	上一个问题
+Next question	下一个问题
+Question context	问题背景
+Write an answer	填写回答
+Write your answer	填写你的回答
+Filter choices	筛选选项
+Type your answer	输入你的回答
+Submit answers	提交回答
+Changes requested	已要求修改
+Failed	失败
+Opening	正在打开
+Draft	草稿
+Merged	已合并
+Closed	已关闭
+Down	离线
+Unhealthy	运行异常
+Saved description	已保存的描述
+Open in tab	在标签页中打开
+Show details	显示详情
+Workspace changes	工作区更改
+Show fewer files	收起文件
+Review diff	审阅差异
+Workspace diff	工作区差异
+Runtime input	运行时输入
+Response	响应
+Submitting…	正在提交…
+Submit response	提交响应
+Run result	运行结果
+Verification results	验证结果
+Run ended	运行结束
+Writing plan	正在编写计划
+Copy message	复制消息
+Helpful	有帮助
+Needs work	需要改进
+What could have been better?	哪些地方可以改进？
+Add a short note	添加简短说明
+Dismiss	关闭
+Save note	保存说明
+Clear all	全部清除
+In progress	进行中
+In review	审阅中
+Approved	已批准
+Cancelled	已取消
+Change case status	更改事项状态
+Parent	上级
+Choose visible columns	选择显示的列
+No cases yet	暂无事项
+Type	类型
+Search cases...	搜索事项…
+Search cases	搜索事项
+No types yet	暂无类型
+All labels	全部标签
+Activity filter	动态筛选
+No events match this filter.	没有符合筛选条件的事件。
+No attachments.	暂无附件。
+Waiting for workspace	等待工作区
+Retrying…	正在重试…
+Retry now	立即重试
+Completed	已完成
+In flight	执行中
+Plan decomposition	计划拆解
+Plan document	计划文档
+Open annotation thread	打开批注讨论
+Anchor moved — needs review	批注位置已变化，需要检查
+Selection actions	选区操作
+Comment	评论
+Close annotation panel	关闭批注面板
+Write a comment…	写评论…
+Posting…	正在发布…
+Reply…	回复…
+ Reopen	 重新打开
+ Resolve	 解决
+Reply	回复
+More thread actions	更多讨论操作
+Copy link	复制链接
+Annotation thread	批注讨论
+Loading plan…	正在加载计划…
+Open pull request	打开拉取请求
+View commit	查看提交
+Open image	打开图片
+Close document	关闭文档
+Read document	阅读文档
+No rows	暂无数据行
+Download CSV	下载 CSV
+No preview available	暂无预览
+View image	查看图片
+Open video	打开视频
+Open file	打开文件
+Download unavailable	无法下载
+Loading preview…	正在加载预览…
+Preview data	预览数据
+For review	待审阅
+Document is empty.	文档为空。
+Preview failed to load.	预览加载失败。
+Preparing preview…	正在准备预览…
+Open raw	打开原始内容
+Some artifacts could not be loaded.	部分成果无法加载。
+Loading artifacts…	正在加载成果…
+No artifacts yet. Work products, documents, and agent-produced files will appear here.	暂无成果。工作产物、文档和员工生成的文件将显示在这里。
+Wake	唤醒
+Insert mention	插入提及
+Dismiss suggestion	关闭建议
+Hand off to	交接给
+Workspace commands	工作区命令
+No services running	暂无运行中的服务
+Services	服务
+Jobs	作业
+Untracked services	未跟踪的服务
+Visit task	查看任务
+Remove blocker	移除阻塞项
+Remove blocker?	移除阻塞项？
+Show fewer items	收起项目
+External objects	外部对象
+References	引用
+Anyone else	其他任何人
+Subtasks	子任务
+Progress	进度
+Subtask completion	子任务完成情况
+Root blocker	根本阻塞项
+Blocked subtask	阻塞的子任务
+Next action	下一步操作
+All subtasks are complete.	所有子任务已完成。
+No remaining subtask actions.	没有待处理的子任务操作。
+No subtasks yet.	暂无子任务。
+Other subtasks	其他子任务
+Add subtask	添加子任务
+Referenced	引用的任务
+Mentioned in	被以下任务提及
+Primary model	主模型
+Model lane	模型通道
+Primary	主要
+Override	覆盖设置
+Default model	默认模型
+Run review now	立即运行审阅
+Run approval now	立即运行审批
+(disabled)	（已禁用）
+Add label	添加标签
+Watchdog agent	监控员工
+Select agent	选择员工
+(optional)	（选填）
+View task	查看任务
+Set watchdog	设置监控
+Monitor	监控
+Next check	下次检查
+Watching	监控中
+Notes	备注
+What is the name of your organization?	你的组织叫什么名字？
+Create your first agent	创建第一位数字员工
+Connect a model	连接模型
+Let's get started...	开始设置…
+Paperclip works with your subscription or API keys.	Paperclip 支持使用你的模型订阅或 API 密钥。
+e.g. Northwind Labs	例如：星河工作室
+e.g. Chief of staff	例如：任务协调经理
+Model source	模型来源
+An existing provider connection is available.	可以使用已有的模型服务连接。
+This environment does not support browser sign-in. Choose another sign-in environment or connect with an API key.	此环境不支持浏览器登录。请选择其他登录环境，或使用 API 密钥连接。
+Step 	第 
+ of 	 / 
+Testing…	正在测试…
+Waiting for code	等待验证码
+Connecting	正在连接
+Passed	已通过
+Retrying...	正在重试…
+Manual debug	手动调试
+Prompt:	提示词：
+If auth fails, set	如果认证失败，请设置
+in env or run	到环境变量中，或运行
+If login is required, run	如果需要登录，请运行
+and retry.	然后重试。
+Create your first organization	创建你的第一个组织
+Get started by creating an organization.	创建一个组织，开始使用。
+Built-in	内置
+Local	本地
+Local - Paperclip host	本地 — Paperclip 主机
+Loading environment	正在加载运行环境
+Unknown environment	未知运行环境
+Set up	设置
+Invalid reporting chain	汇报关系无效
+ agent	 位数字员工
+No agents match the selected status.	没有符合所选状态的数字员工。
+No organizational hierarchy defined.	尚未设置组织层级。
+Live	实时
+Company	组织
+Task	任务
+Project	项目
+Goal	目标
+Organization	组织
+Document 	文档 
+on behalf of 	代表 
+View run	查看运行记录
+All activity	全部动态
+Agent actions	员工操作
+Exporting…	正在导出…
+Loading…	正在加载…
+Try again	重试
+No actions match these filters	没有符合筛选条件的操作
+Nothing here yet	这里还没有内容
+Try a wider date range or different filters.	请扩大日期范围，或调整筛选条件。
+As soon as your agents start doing things, their actions show up here.	数字员工开始工作后，操作记录会显示在这里。
+As soon as anyone in your company does something, it shows up here.	组织成员开始操作后，动态会显示在这里。
+Load more	加载更多
+Binary asset preview is not available for this file type.	此文件类型不支持预览。
+Package files	软件包文件
+Retry preview	重新预览
+Folder	文件夹
+Catalog	目录
+Markdown only	仅 Markdown
+Text only — no scripts, no binaries, no assets.	仅包含文本，不含脚本、二进制文件或资源。
+Includes assets	包含资源
+Includes scripts	包含脚本
+Unknown format	未知格式
+Invalid	无效
+Unfiled	未分类
+Move to folder…	移动到文件夹…
+Forked	已派生
+Bundled	随附
+Skills Store	技能商店
+Discover, install, fork, share	发现、安装、派生和分享技能
+Categories	分类
+Search skills, authors, categories…	搜索技能、作者、分类…
+All sources	全部来源
+Studio	工作室
+Create new skill	新建技能
+Browse catalog	浏览目录
+Import from GitHub	从 GitHub 导入
+Manage sources	管理来源
+Import from path or URL	从路径或网址导入
+Import skills from project	从项目导入技能
+Done	完成
+Select	选择
+All categories	全部分类
+All (	全部（
+Refresh	刷新
+ Browse catalog	 浏览目录
+Create a skill	创建技能
+skill	技能
+skills	技能
+Forking 	派生自 
+Skill name	技能名称
+One-line promise for the skill	用一句话描述技能的用途
+New Skill	新技能
+No tagline yet.	暂无简介。
+Color	颜色
+Untitled	未命名
+Slug	标识名
+Scope	范围
+Private	私有
+Sharing	分享
+Visible inside this company.	组织内可见。
+Only visible in your library.	仅在你的技能库中可见。
+Public link	公开链接
+Coming later.	即将推出。
+Cancel	取消
+Back	返回
+Next	下一步
+Creating...	正在创建…
+Create fork	创建副本
+Create skill	创建技能
+Install skill	安装技能
+Update from catalog	从目录更新
+Installed · Open in library	已安装 · 在技能库中打开
+Preparing...	正在准备…
+Install skill in this organization	将技能安装到此组织
+Update available	有可用更新
+Requires: 	需要：
+Roles: 	角色：
+Tags: 	标签：
+Key	键
+Hash	哈希值
+Copy content hash	复制内容哈希值
+Failed to load file	文件加载失败
+Select a file to inspect.	选择文件以查看内容。
+Update	更新
+Replace	替换
+Install	安装
+Trust	信任等级
+Safe	安全
+Review required	需要审查
+Non-script assets	非脚本资源
+Compatibility	兼容性
+Compatible	兼容
+Requires	依赖
+Roles	角色
+Provenance	来源
+Files (	文件（
+Enable for agents	为数字员工启用
+Installing adds the skill to the company library. Agents can only use it once it is enabled for them.	安装后，技能会加入组织技能库。为数字员工启用后，他们才能使用。
+No agents in this company support skills yet.	此组织暂无支持技能的数字员工。
+Slug override	覆盖标识名
+Force replace existing same-key skill	强制替换相同标识的已有技能
+Version	版本
+Latest	最新
+No agents yet.	还没有数字员工。
+Versions	版本记录
+Diff · skill files	差异 · 技能文件
+Old	旧版本
+Initial	初始版本
+Both sides are the same version.	两侧版本相同。
+Select a version to compare.	选择要比较的版本。
+Location	位置
+Copy failed	复制失败
+Copy path	复制路径
+Move	移动
+Tags	标签
+No tags yet.	暂无标签。
+Add a tag…	添加标签…
+ View	 查看
+ Code	 代码
+Saving...	正在保存…
+Save	保存
+ Edit	 编辑
+Fork this skill to edit it.	创建此技能的副本以进行编辑。
+Make a copy	创建副本
+Fork	派生
+About	关于
+No overview yet.	暂无概述。
+Mode	模式
+Editable	可编辑
+Read only	只读
+Loading versions...	正在加载版本…
+ Compare	 比较
+No saved versions yet.	暂无已保存的版本。
+ files	 个文件
+View diff	查看差异
+ attached	 已关联
+ · Latest	 · 最新
+No agents are using this skill yet. Use “Add to agent” to attach it.	暂无数字员工使用此技能。点击“添加到员工”进行关联。
+View	查看
+Installed from 	安装自 
+Show less	收起
+View all	查看全部
+Open in Studio	在工作室中打开
+Unstar this skill	取消收藏此技能
+Star this skill	收藏此技能
+Starred	已收藏
+Star	收藏
+Fork this skill	创建技能副本
+No agents attached yet.	尚未关联数字员工。
+ more	 更多
+Updates	更新
+Pinned source revision	固定来源版本
+Check for updates	检查更新
+Install update	安装更新
+Up to date.	已是最新版本。
+Unsaved changes	有未保存的更改
+Saving…	正在保存…
+Skill settings	技能设置
+Separate categories with commas. Leave empty to clear categories.	用逗号分隔分类。留空可清除分类。
+Company — visible inside this company	组织 — 组织内可见
+Private — only visible in your library	私有 — 仅在你的技能库中可见
+Public link sharing is coming later.	公开链接分享功能即将推出。
+Reset	重置
+Save settings	保存设置
+Danger zone	危险操作
+Remove this skill from the company library.	从组织技能库中移除此技能。
+Detach this skill from all agents before removing it.	移除前，请先解除此技能与所有数字员工的关联。
+Removing…	正在移除…
+Remove	移除
+Fork skill	创建技能副本
+New skill	新建技能
+Detail	详情
+Close	关闭
+Removing...	正在移除…
+Add a skill source	添加技能来源
+Browse skills.sh	浏览 skills.sh
+Search GitHub	搜索 GitHub
+Import a skill	导入技能
+Paste path, GitHub URL, or skills.sh command	粘贴路径、GitHub 网址或 skills.sh 命令
+Move to folder	移动到文件夹
+Undo	撤销
+Back to store	返回商店
+All providers	全部服务商
+All billers	全部计费方
+Select a start and end date to load data.	选择起止日期以加载数据。
+Unattributed	未归属
+Budget control plane	预算控制台
+Active incidents	当前事件
+Pending approvals	待审批
+Paused agents	已暂停的员工
+Paused projects	已暂停的项目
+No cost events in this period.	此期间没有费用记录。
+No billable events in this period.	此期间没有计费记录。
+By biller	按计费方
+No finance events yet.	暂无财务记录。
+Copy code	复制代码
+User	用户
+Skill	技能
+Routine	定时任务
+Org Chart	组织架构
+Import company	导入组织
+Export company	导出组织
+Zoom in	放大
+Zoom out	缩小
+Fit to screen	适应屏幕
+Fit chart to screen	图表适应屏幕
+Webhook URL	Webhook 地址
+Label	标签
+Schedule	计划
+Signing mode	签名模式
+Replay window (seconds)	重放窗口（秒）
+Delete	删除
+Rotate secret	轮换密钥
+Save trigger	保存触发器
+Coalesce if active	运行期间合并触发
+Always enqueue	始终加入队列
+Skip if active	运行时跳过
+Skip missed	跳过错过的执行
+Enqueue missed with cap	限量补执行
+Run on every scheduled tick	每次到点执行
+Company-wide	整个组织
+This project	此项目
+Responsible	负责人
+No responsible found.	未找到负责人。
+No projects found.	未找到项目。
+Add instructions...	添加指令…
+Triggers	触发器
+Recent activity	最近动态
+No activity yet.	暂无动态。
+View all activity 	查看全部动态 
+No triggers yet	暂无触发器
+New trigger	新建触发器
+Add trigger	添加触发器
+Adding...	正在添加…
+Save this now. Paperclip will not show the secret value again.	请立即保存。Paperclip 不会再次显示此密钥的值。
+New webhook URL	新的 Webhook 地址
+New webhook secret	新的 Webhook 密钥
+Secret	密钥
+Edit instructions	编辑指令
+Concurrency	并发策略
+Catch-up	补执行策略
+Advanced run policy	高级运行策略
+Next 5 fires	未来 5 次触发
+Default agent required	需要默认数字员工
+Skip to section	跳转到章节
+Routine title	定时任务标题
+Pause automatic triggers	暂停自动触发
+Enable automatic triggers	启用自动触发
+Backlog	待规划
+Me	我
+No workspace	无工作区
+Unassigned	未分派
+No project	无项目
+Critical	紧急
+High	高
+Medium	中
+Low	低
+Archive	归档
+Mark as read	标为已读
+Blocked by parked work	被搁置的工作阻塞
+Reset defaults	恢复默认值
+Unknown	未知
+Filters	筛选
+Clear	清除
+Category	类别
+Approval status	审批状态
+No responsible	无负责人
+Labels	标签
+Workspace	工作区
+Visibility	可见范围
+Show 	显示 
+Showing 	正在显示 
+ done	 已完成
+ blocked	 已阻塞
+ tokens	 个令牌
+Assignee	执行人
+Collapse sub-tasks	收起子任务
+Expand sub-tasks	展开子任务
+No matching workspaces.	没有匹配的工作区。
+Project default	项目默认设置
+New isolated workspace	新建隔离工作区
+Reuse existing workspace	复用已有工作区
+Copied!	已复制！
+Copy	复制
+Copied to clipboard	已复制到剪贴板
+Edit	编辑
+No agents found.	未找到数字员工。
+True	是
+False	否
+Running...	正在运行…
+Unknown folder	未知文件夹
+Unknown project	未知项目
+Unknown agent	未知员工
+Custom routines	自定义定时任务
+Built-in routines	内置定时任务
+Recent Runs	最近运行
+New routine	新建定时任务
+Define the recurring work first. Default project and agent are optional for draft routines.	先定义要重复执行的工作。草稿可暂不选择默认项目和数字员工。
+Advanced delivery settings	高级交付设置
+New routine in this folder	在此文件夹中新建定时任务
+Other	其他
+AgentMail API key	AgentMail API 密钥
+Connect GitHub	连接 GitHub
+Chat with an agent	与数字员工对话
+Private key (PEM)	私钥（PEM）
+Use this connection as an agent tool	将此连接作为员工工具
+Signing Secret	签名密钥
+Client secret	客户端密钥
+Project secret	项目密钥
+Client ID	客户端 ID
+API key	API 密钥
+Use an API key	使用 API 密钥
+Branch	分支
+Minimal	最简
+Code	代码
+Use your own OAuth app	使用自己的 OAuth 应用
+Workspace ID	工作区 ID
+Connect with Paperclip	通过 Paperclip 连接
+Managed Environment Only	仅使用托管环境
+Streamlined UI	简化界面
+Assistant connections (MCP)	助手连接（MCP）
+Chat connectors	聊天连接器
+Memory connectors	记忆连接器
+Pipelines	流水线
+Cases	事项
+Agent Chat	员工对话
+Combined Inbox + Task List	合并收件箱与任务列表
+Classic Task Interface	经典任务界面
+Task Plan Decomposition	任务计划拆解
+Experimental File Viewer	实验性文件查看器
+Status Cards	状态卡片
+Built-in Agents	内置数字员工
+Beta skills	测试版技能
+Summaries	摘要
+Decisions	决策
+Goals Sidebar Link	侧边栏目标入口
+Simplified English Interactions	简化交互文案
+Server Info Debug View	服务器信息调试视图
+Paperclip Developer Mode	Paperclip 开发者模式
+Auto-Restart Dev Server When Idle	空闲时自动重启开发服务器
+Approval	审批
+Pending approval	等待审批
+Setup	设置
+Needs setup	需要设置
+Couldn't save — retry	保存失败，请重试
+Top	置顶
+Alphabetical	按名称排序
+Agent paused by budget	员工因预算限制暂停
+Remove from starred	取消收藏
+Star agent	收藏员工
+Edit agent	编辑员工
+Agent was paused by budget limits	员工已因预算限制而暂停
+Leaving...	正在退出…
+Leave agent	退出此员工
+Browse agents	浏览员工
+See all agents	查看全部员工
+Project paused by budget	项目因预算限制暂停
+Leave project	退出项目
+Browse projects	浏览项目
+Starred projects	收藏的项目
+Idle	空闲
+Rename	重命名
+Pause/Restart	暂停／重新启动
+Rename task	重命名任务
+Choose a short, clear name for this task.	为任务选择简洁明确的名称。
+Task name	任务名称
+Decision	决策
+Decision requested	待决策
+Join request	加入申请
+Recovery	恢复
+Blocked dependency	依赖阻塞
+Review	审阅
+Failed run	运行失败
+Agent error	员工错误
+Decide now	立即决策
+New today	今日新增
+Earlier	更早
+Loading organization	正在加载组织
+Organizations	组织
+Couldn't load organizations	无法加载组织
+No organizations	暂无组织
+Create organization	创建组织
+Invite people	邀请成员
+Signing out...	正在退出登录…
+Chat	对话
+Conference Room	会议室
+Chat connection	聊天连接
+Reviews	审阅
+Conversations	对话
+Paste a config	粘贴配置
+Gateways	网关
+Profiles	配置档案
+Browse	浏览
+Developer	开发者
+Advanced setup for developers.	面向开发者的高级设置。
+Permissions	权限
+All connectors	全部连接器
+Channels	频道
+Variables	变量
+Delivery	交付
+Routine navigation	定时任务导航
+Operate	操作
+Hide properties	隐藏属性
+Show properties	显示属性
+Restore side panel	还原侧面板
+Maximize side panel	最大化侧面板
+Close side panel	关闭侧面板
+Already open	已经打开
+Choose a tab	选择标签页
+Open tabs	打开的标签页
+Properties	属性
+Resize panel	调整面板大小
+Open todo tasks	打开待办任务
+Filter by task status	按任务状态筛选
+Blocked tasks	阻塞任务
+Find blocked work	查找阻塞的工作
+Assigned to me	分派给我
+Use your current board user	使用当前负责人账户
+Project name	项目名称
+Filter by issue label	按任务标签筛选
+High priority	高优先级
+Filter by priority	按优先级筛选
+Recently updated	最近更新
+Updated in the last 7 days	最近 7 天更新
+Search tasks, agents, projects...	搜索任务、员工、项目…
+No results found.	未找到结果。
+Create new task	新建任务
+Create new agent	新建数字员工
+Create new project	新建项目
+My work	我的工作
+Update your value	更新你的值
+Set your value	设置你的值
+External reference	外部引用
+Your value	你的值
+Paste your token or credential	粘贴令牌或凭证
+Stored encrypted. Never shown back to anyone, including admins.	加密保存，不会向任何人（包括管理员）再次显示。
+Update value	更新值
+Save value	保存值
+Set value	设置值
+Manage all my secrets	管理我的全部密钥
+Auto mode	自动模式
+Plan mode	计划模式
+Ask mode	询问模式
+Doc	文档
+Sheet	表格
+Audio	音频
+Video	视频
+Log	日志
+Patch	补丁
+File	文件
+Subtree is paused.	子任务树已暂停。
+Task is paused.	任务已暂停。
+Resume this subtree to send a message.	恢复子任务树后即可发送消息。
+Resume this task to send a message.	恢复任务后即可发送消息。
+Your draft is saved.	草稿已保存。
+Resume subtree	恢复子任务树
+Resuming…	正在恢复…
+Resume task	恢复任务
+Automatic (isolated)	自动（隔离运行）
+Full auto (allow)	全自动（允许）
+Ask for permission	请求许可
+Deny operations	拒绝操作
+Full auto (approve all)	全自动（全部批准）
+Automatic Paperclip actions	自动执行 Paperclip 操作
+Allow Paperclip reads	允许 Paperclip 读取操作
+Deny all	全部拒绝
+No assignee	无执行人
+Close picker	关闭选择器
+Select assignee	选择执行人
+Select model and effort	选择模型和思考强度
+Choose assignee	选择执行人
+Reset to agent default	恢复员工默认设置
+Choose exact model	指定模型
+Thinking	思考
+Effort	思考强度
+Search assignees	搜索执行人
+Search assignees…	搜索执行人…
+Assignees	执行人
+No matches.	没有匹配项。
+Back to selection	返回选择
+Choose model	选择模型
+Search or paste a model ID	搜索或粘贴模型 ID
+Models	模型
+Use agent default	使用员工默认设置
+Agent default	员工默认设置
+Loading models…	正在加载模型…
+No catalog match.	目录中没有匹配项。
+Model IDs cannot contain spaces.	模型 ID 不能包含空格。
+Files and images	文件与图片
+Add to composer	添加到输入框
+Add	添加
+Close Add menu	关闭添加菜单
+Skip	跳过
+Review conversation	查看对话
+Pending input	待处理输入
+Composer disabled	输入框已禁用
+Uploading…	正在上传…
+Upload failed	上传失败
+Editing queued message	正在编辑队列消息
+Stopping…	正在停止…
+Stop response	停止回复
+Queue as new message	作为新消息加入队列
+Save queued message	保存队列消息
+Waiting for upload to finish	等待上传完成
+Remove the failed attachment to send	移除上传失败的附件后即可发送
+Send (⌘+Enter)	发送（⌘+Enter）
+Stop	停止
+Send	发送
+New worktree	新建工作树
+Start in an isolated checkout.	在隔离的代码检出中开始。
+Project workspace	项目工作区
+Use the project's shared checkout.	使用项目共享的代码检出。
+New branch	新建分支
+Create a branch in the project workspace.	在项目工作区中创建分支。
+Let the agent choose its workspace.	让数字员工选择工作区。
+Use the project's worktree settings.	使用项目的工作树设置。
+Reuse a worktree	复用工作树
+Existing workspace	已有工作区
+Other options	其他选项
+Worktrees	工作树
+No matching worktrees.	没有匹配的工作树。
+Select worktree	选择工作树
+Loading existing worktrees…	正在加载已有工作树…
+Couldn't load worktrees.	无法加载工作树。
+Retry	重试
+New sub-task	新建子任务
+New task	新建任务
+Describe a task…	描述任务…
+Task title	任务标题
+Sub-task of	父任务
+Remove document	移除文档
+Attachments	附件
+Remove attachment	移除附件
+Todo	待办
+In Progress	进行中
+Private repository	私有仓库
+Source repos	源码仓库
+Connect GitHub to pick a repo	连接 GitHub 以选择仓库
+Available GitHub repos	可用的 GitHub 仓库
+Connect another GitHub account	连接另一个 GitHub 账户
+Unverified server	未经验证的服务器
+Connect your own MCP server	连接自己的 MCP 服务器
+Setup progress	设置进度
+Agent instructions	员工指令
+Instructions text	指令内容
+Enter instructions.	请输入指令。
+Done editing	完成编辑
+Reset to default	恢复默认
+Save instructions	保存指令
+Loading connection instructions…	正在加载连接指令…
+From connections	来自连接
+Provider account available	有可用的服务商账户
+Connect new	新建连接
+Filter agents	筛选员工
+Select agents	选择员工
+No agents selected	未选择员工
+Turn all on	全部开启
+Turn all off	全部关闭
+Save choices	保存选择
+Create secret	创建密钥
+Create new secret	创建新密钥
+Paste the secret value	粘贴密钥值
+The value is stored once and never re-displayed. Rotate to replace.	密钥仅保存一次，不会再次显示。需要替换时请轮换密钥。
+Optional notes (no values)	备注（选填，请勿包含密钥值）
+Create & bind	创建并绑定
+Select an option	选择一个选项
+Hide secret	隐藏密钥
+Show secret	显示密钥
+Select an existing secret	选择已有密钥
+Hide raw value input	隐藏原始值输入框
+Or paste a raw value	或粘贴原始值
+Add item	添加项目
+Remove item	移除项目
+No items added yet.	尚未添加任何项目。
+No configuration options available.	暂无可配置选项。
+Loading agents…	正在加载员工…
+Act as	以此身份执行
+Loading agent permissions…	正在加载员工权限…
+Allowed	允许
+Ask first	先询问
+Off	关闭
+Choose which agent to test as	选择用于测试的员工身份
+Search agents	搜索员工
+Search agents…	搜索员工…
+No agents match.	没有匹配的员工。
+What the badges mean	状态标记说明
+Run again	再次运行
+Run	运行
+Please try again.	请重试。
+Running…	正在运行…
+Request declined	请求已拒绝
+Request cancelled	请求已取消
+Approval needed	需要审批
+Authorization needed	需要授权
+Approve and resume	批准并继续
+Decline	拒绝
+Cancel request	取消请求
+Image	图片
+Resource	资源
+Preview	预览
+Audit log	审计日志
+Open link	打开链接
+Hide raw response	隐藏原始响应
+Show raw response	显示原始响应
+It didn't work.	执行失败。
+What to try	可以尝试的操作
+Review tab	审阅标签页
+Open Review tab	打开审阅标签页
+Cancelling…	正在取消…
+Cancel this request	取消此请求
+Why this is off	为何已关闭
+Which agents can use this connection?	哪些数字员工可以使用此连接？
+Just agents I pick	仅限我选择的员工
+Any agent	所有员工
+Actions	操作
+Refresh actions	刷新操作
+Find an action	查找操作
+Find an action…	查找操作…
+Mixed	混合
+Test	测试
+Connection settings	连接设置
+Reconnect	重新连接
+Disconnect	断开连接
+Disconnecting…	正在断开连接…
+Disconnect connection	断开此连接
+Enter a valid MCP URL	请输入有效的 MCP 地址
+Credentials were rejected	凭证被拒绝
+Paperclip could not reach this server	Paperclip 无法连接到此服务器
+MCP server URL	MCP 服务器地址
+Console URL (optional)	控制台地址（选填）
+Continue your setup	继续设置
+Who can use this connection	谁可以使用此连接
+Cancel sign-in	取消登录
+Waiting for sign-in	等待登录
+Reuse an existing session	复用已有会话
+Authentication	身份认证
+Sign-in method	登录方式
+Automatic (sign in if required)	自动（需要时登录）
+Bearer token	Bearer 令牌
+Custom headers	自定义请求头
+No additional authentication	无需额外认证
+Additional headers	附加请求头
+Headers	请求头
+Header name	请求头名称
+Add header	添加请求头
+Connecting and discovering tools…	正在连接并发现工具…
+Connecting…	正在连接…
+Connected	已连接
+Just me	仅我自己
+Any human in the organization	组织内的所有人
+Disconnected	已断开
+Refreshing…	正在刷新…
+Refresh tools	刷新工具
+Resume setup	继续设置
+Subscription	订阅
+Saved API key	已保存的 API 密钥
+Saved subscription	已保存的订阅
+Enter a new API key	输入新的 API 密钥
+Sign in to another account	登录其他账户
+Checking saved API keys…	正在检查已保存的 API 密钥…
+AI connection	AI 连接
+Loading AI connections	正在加载 AI 连接
+Retry connections	重试连接
+Not connected	未连接
+Reconnect account	重新连接账户
+Connect another account	连接其他账户
+Individual account	个人账户
+Use pool	使用账户池
+Connect account	连接账户
+Redirecting...	正在跳转…
+Continue to dashboard	前往总览
+Switch account	切换账户
+Wrong account?	账户不对？
+Sign in / Create account	登录／创建账户
+Reconnecting to Paperclip	正在重新连接 Paperclip
+Unable to load Paperclip	无法加载 Paperclip
+No organization access	没有组织访问权限
+Connection interrupted. Reconnecting automatically…	连接中断，正在自动重连…
+Input	输入
+Provider activity	服务商动态
+Addressed	已处理
+Preparing approval…	正在准备审批…
+Checking saved API key…	正在检查已保存的 API 密钥…
+New API key	新 API 密钥
+Change API key	更换 API 密钥
+Not now	暂不设置
+Finish setup	完成设置
+Connect AgentMail	连接 AgentMail
+External provider connected	外部服务商已连接
+Access declined	访问已拒绝
+Connection declined	连接已拒绝
+Request superseded	请求已被替代
+Connection request expired	连接请求已过期
+Paperclip couldn’t start	Paperclip 无法启动
+Part of the app failed to load. Check your connection and reload this page to try again.	部分界面加载失败。请检查连接，然后刷新页面重试。
+Reload page	刷新页面
+Paperclip is taking longer to load	Paperclip 加载时间较长
+You can keep waiting, or reload this page to try again.	你可以继续等待，或刷新页面重试。
+Building export...	正在生成导出文件…
+Export preview cancelled	已取消导出预览
+Export preview unavailable	无法获取导出预览
+No export preview is loaded.	尚未加载导出预览。
+Attachments travel with tasks and routines; re-enable one of them to include attachments.	附件随任务和定时任务一同导出；重新勾选任一项即可包含附件。
+Task and routine history is opt-in because it can be large.	任务和定时任务的历史记录可能较大，需手动勾选以包含在导出中。
+Agent audit is a Paperclip Enterprise view	员工审计属于 Paperclip 企业版功能
+Every recorded agent action, newest first — with the responsible person and run behind each one.	按时间倒序显示员工操作，每条记录均包含负责人和关联运行。
+permission to view it.	权限后才能查看。
+Select a company to view agents.	选择一个组织以查看数字员工。
+Select a company to view activity.	选择一个组织以查看动态。
+Plugin worker	插件工作进程
+Harness	执行框架
+No active policies	没有生效的策略
+No enabled policy currently mutates this agent's allow list.	当前没有已启用的策略调整此员工的工具许可列表。
+No tools are allowed for this agent. Bind a tool profile to grant access.	此员工尚无可用工具。请绑定工具访问档案以授予权限。
+Enabled instructions are included when the connection is available for the task. Access can depend on the task’s responsible person and action permissions.	任务可使用此连接时，会附带已启用的指令。实际访问范围取决于任务负责人及操作权限。
+An agent	一位数字员工
+No cap	不设上限
+Configure	配置
+Enabled	已启用
+Disabled	已禁用
+Active	活跃
+Pending	待处理
+Connected	已连接
+Disconnected	已断开
+Unavailable	不可用
+Loading	正在加载
+Error	错误
+Warning	警告
+Success	成功
+Install External Adapter	安装外部适配器
+Install Plugin	安装插件
+Install plugin	安装插件
+npm package	npm 软件包
+npm Package Name	npm 软件包名称
+Plugins are alpha.	插件功能处于早期测试阶段。
+The plugin runtime and API surface are still changing. Expect breaking changes while this feature settles.	插件运行机制和接口仍在调整，后续版本可能包含不兼容的变化。
+No bundled plugins were found in this checkout.	当前安装中没有内置插件。
+Installed Plugins	已安装插件
+External adapters are alpha.	外部适配器功能处于早期测试阶段。
+Alpha	早期测试版
+Paperclip Runner	Paperclip 运行器
+Smoke Lab	集成测试实验室
+Integration smoke	集成冒烟测试
+Select which features are still being evaluated before becoming default behavior.	选择尚在评估、未默认启用的功能。
+Set the KEY to the env var name the process expects, for example GH_TOKEN. Choose a secret to resolve a stored value at run start. PAPERCLIP_* variables are injected automatically.	将 KEY 设为程序需要的环境变量名，例如 GH_TOKEN。选择密钥后，运行开始时会读取其保存的值。PAPERCLIP_* 变量会自动注入。
+The agent audit log gives you a searchable, exportable record of everything your agents did — every comment, task change, approval, and run — with the responsible person for each action. Ask an administrator to grant you the	员工审计日志记录数字员工的评论、任务变更、审批和运行，并标明每项操作的负责人，支持搜索和导出。请联系管理员授予你
+Turning this off preserves conversations and lets active runs finish, but prevents new messages.	关闭后会保留对话并允许正在运行的工作结束，但不能再发送新消息。
+Turning Cases off hides the tab and blocks the case API; existing case data is kept.	关闭事项功能后会隐藏入口并停用事项接口，已有数据仍会保留。
+Turning this off hides experimental chat setup and connected-task controls. Existing chat connections keep running. AgentMail, GitHub tools, and other tool connectors stay available.	关闭后会隐藏实验性聊天配置及关联任务控件，已有聊天连接继续运行。AgentMail、GitHub 工具及其他工具连接器仍可使用。
+Old Inbox links redirect to the matching view. Turning this off restores the separate Inbox; no data changes.	旧收件箱链接会跳转到对应视图。关闭后恢复独立收件箱，数据不受影响。
+Turning this off hides setup for these connectors. Existing connections keep running.	关闭后会隐藏这些连接器的配置入口，已有连接继续运行。
+Enabling Status Cards also enables Summaries.	启用状态卡片时也会启用摘要功能。
+Turning this off restores the legacy shell and navigation. Task and page data are unchanged.	关闭后恢复旧版界面和导航，任务及页面数据保持不变。
+Status Cards requires Summaries. Disabling Summaries also disables Status Cards.	状态卡片依赖摘要功能；停用摘要时，也会停用状态卡片。
+Switching takes effect immediately. No task data is affected.	切换立即生效，不影响任务数据。
+Allow agents to pin beta versions of the core Paperclip skill. Disabling this restores every agent to the default live skill without deleting saved pins.	允许数字员工固定使用 Paperclip 核心技能的测试版本。关闭后将恢复默认稳定版，但保留已保存的版本选择。
+Default policy	默认策略
+Cap	上限
+Process	进程
+Shell Process	Shell 进程
+Claude Code	Claude Code
+Kimi Code	Kimi Code
+Grok Build	Grok Build
