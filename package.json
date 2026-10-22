@@ -19,5 +19,5 @@
     "merge": "node scripts/merge-catalog.mjs",
     "test": "node --test"
   },
-  "dependencies": { "acorn": "8.18.0" }
+  "dependencies": { "acorn": "8.19.0" }
 }
